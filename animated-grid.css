@@ -1,8 +1,8 @@
 .animated-grid {
   height: 85vh;
   display: grid;
-  
-  grid-gap: 1rem;
+  margin-bottom: 100px;
+  gap: 1rem;
 
   grid-template-areas:
     "a    b   c   d"
@@ -22,7 +22,7 @@
   animation-fill-mode: backwards;
 }
 
-@keyframe cardEntrance {
+@keyframes cardEntrance {
   from {
     opacity: 0;
     transform: scale(0.3);
